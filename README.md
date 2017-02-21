@@ -7,5 +7,5 @@ Download link : [Currently unavailable(demo to Ali)]()
 
 Our App manual : [SensorDemo App manual]()
 
-**Bug Fixed Log**
+### Bug Fixed Log
 
