@@ -18,7 +18,7 @@ This time the required file number of sit and walk model is both 10. After train
 
 #### Second round:
 
-This time we changed the required file amount to 100, 10 times than last round. And right now the false alarm drops to 5%(60% before)。 And the accuracy of successfully detecting other user as "Suspicious User" is 100%. It's more sensitive than last round.
+This time we changed the required file amount to 100, 10 times than last round. And right now the false alarm drops to 5%(60% before). Also, the dialog will allow user to set such false alarm data add into his model so that the current model will keep modify itself to be more accurate And the accuracy of successfully detecting other user as "Suspicious User" is 100%. It's more sensitive than last round.
 
 ### Bug Fixed Log
 
