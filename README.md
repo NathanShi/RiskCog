@@ -3,9 +3,9 @@
 
 Led by Prof.Yan Chen and his phD student Zhengyang Qu in group of 9
 
-Report : [Currently the paper is under reviewing](https://github.com/NathanShi/RiskCog/edit/master/README.md)
+Report : [Currently the paper is under reviewing](https://github.com/NathanShi)
 
-Download link : [Currently unavailable(demoing to Alibaba)](https://github.com/NathanShi/RiskCog/edit/master/README.md)
+Download link : [Currently unavailable(demoing to Alibaba)](https://github.com/NathanShi)
 
 Our App manual : 
 - [SensorDemo App manual(Chinese version)](https://drive.google.com/file/d/0B9GDDA3vZuKZaEFHRG5sU3h4Z3M/view?usp=sharing)
