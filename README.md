@@ -19,7 +19,7 @@ This time the required file number of sit and walk model is both 10. After train
 
 #### Second round:
 
-This time we changed the required file amount to 100, 10 times than last round. And right now the false alarm drops to 5%(60% before). Also, the dialog will allow user to set such false alarm data add into his model so that the current model will keep modify itself to be more accurate And the accuracy of successfully detecting other user as "Suspicious User" is 100%. It's more sensitive than last round.
+This time we changed the required file amount to 100, 10 times than last round. And right now the false alarm drops to 5%(60% before). Also, the dialog will allow user to set such false alarm data add into his model so that the current model will keep modify itself to be more accurate. And the accuracy of successfully detecting other user as "Suspicious User" is 100%. It's more sensitive than last round.
 
 ---
 
@@ -41,7 +41,11 @@ This time we changed the required file amount to 100, 10 times than last round. 
 
 - **After changing the password, the service back to 'Ready':** Change function `startPasswordSetting()` in `MainActivity.java` to remain the state.
 
-- **Too many walk data was assigned to sit model:** Fixed on server side by teammates.
+- **Walk data was assigned to sit model:** Fixed on server side by teammates.
+
+- **Abnormal data added to model:** Add if-else in function `writeTxt()` in `CollectDataService.java` to filter these data.
+
+- **No time reminder for "Suspicious User" dialog:** Add variables to get timestamp of the return result in `DetectService.java`
 
 - **New Interface and Icon**
   
