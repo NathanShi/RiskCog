@@ -1,9 +1,7 @@
 # RiskCog
 ## Unobtrusive and Continuous User Identification on Smartphones in the Wild
 
-Led by Prof.Yan Chen and his phD student Zhengyang Qu in group of 9
-
-Report : [Currently the paper is under reviewing](https://github.com/NathanShi)
+Report : [unavailable](https://github.com/NathanShi)
 
 Download link : [Currently unavailable(demoing to Alibaba)](https://github.com/NathanShi)
 
