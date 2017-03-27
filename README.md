@@ -6,18 +6,7 @@ Report : [unavailable](https://github.com/NathanShi)
 Download link : [Currently unavailable(demoing to Alibaba)](https://github.com/NathanShi)
 
 Our App manual : 
-- [SensorDemo App manual(Chinese version)](https://drive.google.com/file/d/0B9GDDA3vZuKZaEFHRG5sU3h4Z3M/view?usp=sharing)
-
----
-### Test Result
-
-#### First round:
-
-This time the required file number of sit and walk model is both 10. After training the accuracy is approximately 60% false detecting owner himself as "Suspicious User", which is not as expected since it will hurt user experience much. For successfully detecting other user as "Suspicious User" is approximately 80%, which is a good result yet still needs improvements.
-
-#### Second round:
-
-This time we changed the required file amount to 100, 10 times than last round. And right now the false alarm drops to 5%(60% before). Also, the dialog will allow user to set such false alarm data add into his model so that the current model will keep modify itself to be more accurate. And the accuracy of successfully detecting other user as "Suspicious User" is 100%. It's more sensitive than last round.
+- [SensorDemo App manual](https://drive.google.com/file/d/0B9GDDA3vZuKZbVdBTnMzZnF1NXc/view?usp=sharing)
 
 ---
 
@@ -46,5 +35,9 @@ This time we changed the required file amount to 100, 10 times than last round. 
 - **No time reminder for "Suspicious User" dialog:** Add variables to get timestamp of the return result in `DetectService.java`
 
 - **New Interface and Icon**
+
+- **Five times false alarm will return to training phase**
+
+- **One model exist will also generate dialog if accuracy is low**
   
  
