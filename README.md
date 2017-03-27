@@ -1,7 +1,7 @@
 # RiskCog
 ## Unobtrusive and Continuous User Identification on Smartphones in the Wild
 
-Report : [unavailable](https://github.com/NathanShi)
+Report : [Currently unavailable(being reviewed)](https://github.com/NathanShi)
 
 Download link : [Currently unavailable(demoing to Alibaba)](https://github.com/NathanShi)
 
@@ -36,8 +36,8 @@ Our App manual :
 
 - **New Interface and Icon**
 
-- **Five times false alarm will return to training phase**
+- **Five times false alarm will return to training phase:** Add variables and functions to `DetectService.java`
 
-- **One model exist will also generate dialog if accuracy is low**
+- **One model exist will also generate dialog if accuracy is low:** Add this function from server side and client side.
   
  
